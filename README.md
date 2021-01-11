@@ -20,7 +20,7 @@ Collection of useful DL resources found online
 
 
 ## Image Augumentation techniques
-
+- [Rand augument](https://github.com/ildoonet/pytorch-randaugment)
 
 ## Loss functions
 
@@ -40,3 +40,8 @@ Collection of useful DL resources found online
 - SGD with momentum and wieght decay is generally SOTA
 - Combined with Cosine Annealing with warm restarts
 - Need to be explored further
+
+
+## Kaggle discussions
+- [snapshot learning and cyclic lr](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/65347)
+- [MoA 1st place solution](https://www.kaggle.com/c/lish-moa/discussion/201510#1102840)
