@@ -56,7 +56,7 @@ Collection of useful DL resources found online
 - [Simple google search](https://www.google.com/search?q=resnest+vs+resnet&oq=resnest+vs+resnet&aqs=chrome..69i57.8285j0j1&sourceid=chrome&ie=UTF-8)
 - [efficientnet vs resnet](https://www.google.com/search?sxsrf=ALeKk036AhcaMIAokeRmDgNNIimBiwpANA%3A1610412708874&ei=pPL8X-3rNIOO4-EPq4qzyAU&q=efficientnet+vs+resnet&oq=efficie&gs_lcp=CgZwc3ktYWIQAxgBMgsIABCxAxDJAxCRAjIECAAQQzIFCAAQkQIyBwgAELEDEEMyBAgAEEMyBwgAELEDEEMyAggAMgIIADICCAAyAggAOgQIABBHOgQIIxAnOggIABDJAxCRAjoICAAQsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToFCAAQsQNQ7pUBWMSfAWDRqgFoAHAEeAGAAaYCiAGkBpIBBTYuMC4xmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab)
 
-- [Resnet_vs_Resnext](images/Resnet_vs_ Resnext.jpg)
+- [Resnet_vs_Resnext](images/Resnet_vs_Resnext.jpg)
 - [Squeeze and excitation](images/squeeze_excitation.jpg)
-- [Efficient net - part1](images/EfficientNet_ part1.jpg)
-- [Efficient net - part2](images/EfficientNet _part2.jpg)
+- [Efficient net - part1](images/EfficientNet_part1.jpg)
+- [Efficient net - part2](images/EfficientNet_part2.jpg)
