@@ -14,12 +14,13 @@ Collection of useful DL resources found online
 
 - With Higher learning rates, learning is faster (good until we start diverging)
 - As we train longer, we tend to approach global minima, so need to reduce lr. Annealing is the part where we train with lower lr to find stable region (envisioned as plateau, where small changes in input doesnt lead to much change in loss function).
-- CYCLIC LEARNING RATES - start from one end of sprectrum and increase / decrease the lr using a linear / exp / cosine like function
-- WARM RESTARTS - Periodically Reseeting lr to lr_max helps us avoid `overfitting regions`, `saddle points`. Warm refers to the point that we continue to use the weights obtained after training for some time and not starting from some pre-defined initialization (random, zero etc)
+- Cyclic Learning rates - start from one end of sprectrum and increase / decrease the lr using a linear / exp / cosine like function
+- warm restarts - Periodically Reseeting lr to lr_max helps us avoid `overfitting regions`, `saddle points`. Warm refers to the point that we continue to use the weights obtained after training for some time and not starting from some pre-defined initialization (random, zero etc)
 - lr_max is found using the lr_range test proposed by Leslie Smith. 
 - Two major options 
 	- Cosine Annealing with warm restarts (Cosine is more aggressive annealing strategy)
 	- One cycle lr (across the entire training cycle - linear / cosine annealing)
+	- Generally One cycle lr is less over fitting than Cosine Annealing with warm restarts
 
 
 ## Image Augumentation techniques
@@ -35,7 +36,8 @@ Collection of useful DL resources found online
 
 
 ## Pytorch lightning
-
+- [Tensorboard in PT-L](https://learnopencv.com/tensorboard-with-pytorch-lightning/)
+- 
 
 ## Optimizers
 
