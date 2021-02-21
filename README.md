@@ -28,7 +28,7 @@ Collection of useful DL resources found online
 - [k-fold vs stratified kfold](https://www.google.com/search?q=when+to+use+kfold+and+when+to+use+stratified+k+fold&oq=when+to+use+kfold+and+when+to+use+stratified+k+fold&aqs=chrome..69i57.12117j0j1&sourceid=chrome&ie=UTF-8)
 
 ## Learning rate finder
-
+- [LR range test blogpost](https://sgugger.github.io/how-do-you-find-a-good-learning-rate.html)
 
 ## LR schedulers
 - https://www.jeremyjordan.me/nn-learning-rate/
@@ -52,6 +52,9 @@ Collection of useful DL resources found online
 
 ## Image Augumentation techniques
 - [Rand augument](https://github.com/ildoonet/pytorch-randaugment)
+- [Cutmix, Mixup, gridmask kaggle post](https://www.kaggle.com/saife245/cutmix-vs-mixup-vs-gridmask-vs-cutout)
+- [Cutmix and mixup on GPU/TPU by cdeotte](https://www.kaggle.com/cdeotte/cutmix-and-mixup-on-gpu-tpu)
+- [GPU augumentations kaggle post](https://www.kaggle.com/c/flower-classification-with-tpus/discussion/132935)
 
 ## Loss functions
 - Cross Entropy ???
@@ -74,23 +77,13 @@ Collection of useful DL resources found online
 - Ranger ???
 
 
-## Kaggle discussions
+## Other topics
 - [snapshot learning and cyclic lr](https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/65347)
 - [MoA 1st place solution](https://www.kaggle.com/c/lish-moa/discussion/201510#1102840)
+- [forward selection ensemble method](https://www.kaggle.com/cdeotte/forward-selection-oof-ensemble-0-942-private)
 
 
-<<<<<<< HEAD
 ## Youtube channels
 - [Yannic kilcher](https://www.youtube.com/c/YannicKilcher/playlists)
 - [Kaggler](https://www.youtube.com/channel/UCI8Y-po83Y4LLnIdAe_cmNA)
 - [fastai ](https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ)
-=======
-## Resnet architectures and variants
-- [Simple google search](https://www.google.com/search?q=resnest+vs+resnet&oq=resnest+vs+resnet&aqs=chrome..69i57.8285j0j1&sourceid=chrome&ie=UTF-8)
-- [efficientnet vs resnet](https://www.google.com/search?sxsrf=ALeKk036AhcaMIAokeRmDgNNIimBiwpANA%3A1610412708874&ei=pPL8X-3rNIOO4-EPq4qzyAU&q=efficientnet+vs+resnet&oq=efficie&gs_lcp=CgZwc3ktYWIQAxgBMgsIABCxAxDJAxCRAjIECAAQQzIFCAAQkQIyBwgAELEDEEMyBAgAEEMyBwgAELEDEEMyAggAMgIIADICCAAyAggAOgQIABBHOgQIIxAnOggIABDJAxCRAjoICAAQsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToFCAAQsQNQ7pUBWMSfAWDRqgFoAHAEeAGAAaYCiAGkBpIBBTYuMC4xmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab)
-
-- [Resnet_vs_Resnext](images/Resnet_vs_Resnext.jpg)
-- [Squeeze and excitation](images/squeeze_excitation.jpg)
-- [Efficient net - part1](images/EfficientNet_part1.jpg)
-- [Efficient net - part2](images/EfficientNet_part2.jpg)
->>>>>>> 353a9e9fa4f30430f07843a4913255e05511d358
