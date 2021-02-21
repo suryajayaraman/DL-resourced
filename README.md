@@ -1,6 +1,29 @@
 # DL-resources
 Collection of useful DL resources found online
 
+
+## Model Architectures
+
+### Transformer architectures
+- [Illustrated Transformers](http://jalammar.github.io/illustrated-transformer/)
+- [medium post on Tranformers](https://medium.com/inside-machine-learning/what-is-a-transformer-d07dd1fbec04)
+- [Google AI blog](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
+- [Medium post](https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634)
+- [Vision transformers](https://towardsdatascience.com/are-you-ready-for-vision-transformer-vit-c9e11862c539)
+
+### Resnet architectures and variants
+- [Simple google search](https://www.google.com/search?q=resnest+vs+resnet&oq=resnest+vs+resnet&aqs=chrome..69i57.8285j0j1&sourceid=chrome&ie=UTF-8)
+- [efficientnet vs resnet](https://www.google.com/search?sxsrf=ALeKk036AhcaMIAokeRmDgNNIimBiwpANA%3A1610412708874&ei=pPL8X-3rNIOO4-EPq4qzyAU&q=efficientnet+vs+resnet&oq=efficie&gs_lcp=CgZwc3ktYWIQAxgBMgsIABCxAxDJAxCRAjIECAAQQzIFCAAQkQIyBwgAELEDEEMyBAgAEEMyBwgAELEDEEMyAggAMgIIADICCAAyAggAOgQIABBHOgQIIxAnOggIABDJAxCRAjoICAAQsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToFCAAQsQNQ7pUBWMSfAWDRqgFoAHAEeAGAAaYCiAGkBpIBBTYuMC4xmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab)
+
+- ![Resnet vs Resnext](images/Resnet_vs_ Resnext.jpg)
+- ![Squeeze and excitation](images/squeeze_excitation.jpg)
+- ![Efficient net - part1](images/EfficientNet_ part1.jpg)
+- ![Efficient net - part2](images/EfficientNet _part2.jpg)
+
+### LSTM
+
+
+
 ## CV strategy
 - [k-fold vs stratified kfold](https://www.google.com/search?q=when+to+use+kfold+and+when+to+use+stratified+k+fold&oq=when+to+use+kfold+and+when+to+use+stratified+k+fold&aqs=chrome..69i57.12117j0j1&sourceid=chrome&ie=UTF-8)
 
@@ -22,29 +45,33 @@ Collection of useful DL resources found online
 	- One cycle lr (across the entire training cycle - linear / cosine annealing)
 	- Generally One cycle lr is less over fitting than Cosine Annealing with warm restarts
 
+- **Lower Batch size has a regulaizing effect (less generalization error); CON - higher training time**
+- **SGD converges little slower but Adam is fast and overfits a litte**
+- **SWA is a method to kinda average the model as it approaches minima, SGD often settles around the local minima but takes longer to find it**
+- **Transformers work well - Attention is all you need paper**
 
 ## Image Augumentation techniques
 - [Rand augument](https://github.com/ildoonet/pytorch-randaugment)
 
 ## Loss functions
-
-
-## Transformers
-
-
-## LSTM - from scratch
+- Cross Entropy ???
+- label smoothing CE ???
+- Bitempered logistic loss function ???
+- Focal loss function ???
+- Taylor loss function ???
 
 
 ## Pytorch lightning
 - [Tensorboard in PT-L](https://learnopencv.com/tensorboard-with-pytorch-lightning/)
-- 
 
 ## Optimizers
 
 - [Comparison of different Optimizers and lr_schedulers](https://medium.com/vitalify-asia/whats-up-with-deep-learning-optimizers-since-adam-5c1d862b9db0)
-- SGD with momentum and wieght decay is generally SOTA
-- Combined with Cosine Annealing with warm restarts
-- Need to be explored further
+- SGD with momentum and wieght decay, Warm restarts is generally SOTA, but takes more time to converge compared to Adam
+- SGD with Stochastic Weighted averaging gives better results 
+- Adam converges faster but overfits lightly, different variants available - 
+- AdamW ???
+- Ranger ???
 
 
 ## Kaggle discussions
@@ -52,11 +79,7 @@ Collection of useful DL resources found online
 - [MoA 1st place solution](https://www.kaggle.com/c/lish-moa/discussion/201510#1102840)
 
 
-## Resnet architectures and variants
-- [Simple google search](https://www.google.com/search?q=resnest+vs+resnet&oq=resnest+vs+resnet&aqs=chrome..69i57.8285j0j1&sourceid=chrome&ie=UTF-8)
-- [efficientnet vs resnet](https://www.google.com/search?sxsrf=ALeKk036AhcaMIAokeRmDgNNIimBiwpANA%3A1610412708874&ei=pPL8X-3rNIOO4-EPq4qzyAU&q=efficientnet+vs+resnet&oq=efficie&gs_lcp=CgZwc3ktYWIQAxgBMgsIABCxAxDJAxCRAjIECAAQQzIFCAAQkQIyBwgAELEDEEMyBAgAEEMyBwgAELEDEEMyAggAMgIIADICCAAyAggAOgQIABBHOgQIIxAnOggIABDJAxCRAjoICAAQsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToFCAAQsQNQ7pUBWMSfAWDRqgFoAHAEeAGAAaYCiAGkBpIBBTYuMC4xmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab)
-
-- ![Resnet_vs_Resnext](images/Resnet_vs_ Resnext.jpg)
-- ![Squeeze and excitation](images/squeeze_excitation.jpg)
-- ![Efficient net - part1](images/EfficientNet_ part1.jpg)
-- ![Efficient net - part2](images/EfficientNet _part2.jpg)
+## Youtube channels
+- [Yannic kilcher](https://www.youtube.com/c/YannicKilcher/playlists)
+- [Kaggler](https://www.youtube.com/channel/UCI8Y-po83Y4LLnIdAe_cmNA)
+- [fastai ](https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ)
