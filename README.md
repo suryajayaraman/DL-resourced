@@ -79,7 +79,18 @@ Collection of useful DL resources found online
 - [MoA 1st place solution](https://www.kaggle.com/c/lish-moa/discussion/201510#1102840)
 
 
+<<<<<<< HEAD
 ## Youtube channels
 - [Yannic kilcher](https://www.youtube.com/c/YannicKilcher/playlists)
 - [Kaggler](https://www.youtube.com/channel/UCI8Y-po83Y4LLnIdAe_cmNA)
 - [fastai ](https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ)
+=======
+## Resnet architectures and variants
+- [Simple google search](https://www.google.com/search?q=resnest+vs+resnet&oq=resnest+vs+resnet&aqs=chrome..69i57.8285j0j1&sourceid=chrome&ie=UTF-8)
+- [efficientnet vs resnet](https://www.google.com/search?sxsrf=ALeKk036AhcaMIAokeRmDgNNIimBiwpANA%3A1610412708874&ei=pPL8X-3rNIOO4-EPq4qzyAU&q=efficientnet+vs+resnet&oq=efficie&gs_lcp=CgZwc3ktYWIQAxgBMgsIABCxAxDJAxCRAjIECAAQQzIFCAAQkQIyBwgAELEDEEMyBAgAEEMyBwgAELEDEEMyAggAMgIIADICCAAyAggAOgQIABBHOgQIIxAnOggIABDJAxCRAjoICAAQsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToFCAAQsQNQ7pUBWMSfAWDRqgFoAHAEeAGAAaYCiAGkBpIBBTYuMC4xmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab)
+
+- [Resnet_vs_Resnext](images/Resnet_vs_Resnext.jpg)
+- [Squeeze and excitation](images/squeeze_excitation.jpg)
+- [Efficient net - part1](images/EfficientNet_part1.jpg)
+- [Efficient net - part2](images/EfficientNet_part2.jpg)
+>>>>>>> 353a9e9fa4f30430f07843a4913255e05511d358
