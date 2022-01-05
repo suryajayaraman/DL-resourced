@@ -2,6 +2,11 @@
 Collection of useful DL resources found online
 
 
+## DL courses online 
+1. [Practical ML](https://c.d2l.ai/stanford-cs329p/index.html)
+
+
+
 ## Model Architectures
 
 ### Transformer architectures
